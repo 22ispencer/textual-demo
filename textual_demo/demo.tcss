@@ -1,0 +1,29 @@
+#tall {
+  row-span: 2;
+}
+
+#wide {
+  column-span: 2;
+}
+
+#grid {
+    layout: grid;
+    margin: 1 2;
+    grid-gutter: 1 2;
+    grid-size: 3;
+    height: 100%;
+}
+
+Static {
+  height: 100%;
+  width: 100%;
+  border: solid green;
+  align: center middle;
+}
+
+Button {
+  height: 100%;
+  width: 100%;
+  background: green;
+  color: white;
+}
